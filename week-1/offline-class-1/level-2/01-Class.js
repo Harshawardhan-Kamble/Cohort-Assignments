@@ -9,4 +9,7 @@ class Animal {
   }
 }
 
-
+let dog= new Animal("Alphi",4)
+console.log(dog)
+const bio= dog.describe()
+console.log(bio)

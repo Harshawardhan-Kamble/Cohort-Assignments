@@ -1,7 +1,7 @@
 // Object Methods Explanation
 function objectMethods(obj) {
   console.log("Original Object:", obj);
-
+  // .keys is static in constructor (Object)
   let keys = Object.keys(obj);
   console.log("After Object.keys():", keys);
 
