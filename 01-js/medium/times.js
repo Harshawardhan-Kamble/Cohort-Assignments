@@ -9,5 +9,18 @@ There is no automated test for this one, this is more for you to understand time
 */
 
 function calculateTime(n) {
-    return 0.01;
+    const beforedate=new Date()
+    const getCurrentTime=beforedate.getTime()
+   let sum=0;
+    for(let i=1;i<=n;i++){
+        sum+=i;
+    }
+    const afterDate=new Date()
+    const getCalculatedTime=afterDate.getTime()
+    const elaspedTime=(getCalculatedTime-getCurrentTime)/1000
+    return elaspedTime;
 }
+console.log("Elapsed time for n = 100:", calculateTime(100), "seconds");
+console.log("Elapsed time for n = 100000:", calculateTime(100000), "seconds");
+console.log("Elapsed time for n = 1000000000:", calculateTime(1000000000), "seconds");
+console.log("Elapsed time for n = 10000000000:", calculateTime(10000000000), "seconds");
