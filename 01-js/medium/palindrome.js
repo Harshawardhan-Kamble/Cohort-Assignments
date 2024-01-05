@@ -18,6 +18,7 @@ function isPalindrome(str) {
   else{
     return false
   }
+  
 }
 
 module.exports = isPalindrome;
