@@ -14,11 +14,12 @@
 */
 
 function calculateTotalSpentByCategory(transactions) {
-  const arr=[]
-  for(let i=0;i<transactions.length;i++){
-    arr.push({category:transactions[i]["category"],totalSpent:transactions[i]["price"]})
-  }
-  return arr;
+  // const arr=[]
+  // for(let i=0;i<transactions.length;i++){
+  //   arr.push({category:transactions[i]["category"],totalSpent:transactions[i]["price"]})
+  // }
+  // return arr;
+  
 }
 
 module.exports = calculateTotalSpentByCategory;
